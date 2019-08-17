@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 import bean.SingleWord;
 import bean.User;
 
+@SuppressWarnings("unchecked")
 public class SpeechListLogic implements CommonLogic {
 
 	@Override

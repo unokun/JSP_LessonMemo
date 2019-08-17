@@ -5,6 +5,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%
   // アプリケーションスコープからひとことリストを取得する
+  @SuppressWarnings("unchecked")
   List<SingleWord> lists = (ArrayList<SingleWord>) application.getAttribute("lists");
   // セッションスコープからログインユーザ情報を取得
   User user = (User) session.getAttribute("user");
@@ -44,4 +45,4 @@
 <%    }
    } %>
 </body>
-</html>  
+</html>

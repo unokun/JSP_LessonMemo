@@ -2,6 +2,7 @@
 <%@ page import="java.util.List" %>
 <%
   String message = (String) application.getAttribute("message");
+  @SuppressWarnings("unchecked")
   List<String> errors = (List<String>) application.getAttribute("errors");
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

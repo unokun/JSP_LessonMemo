@@ -2,6 +2,7 @@
 <%@ page import="model.Division" %>
 <%@ page import="java.util.List" %>
 <%
+  @SuppressWarnings("unchecked")
   List<Division> lists = (List<Division>) application.getAttribute("divisionList");
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
